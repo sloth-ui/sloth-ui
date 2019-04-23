@@ -1,7 +1,12 @@
 'use strict';
+import React from 'react';
 
-module.exports = button;
+class Button extends React.Component {
 
-function button() {
-    // TODO
+    render() {
+        const { children } = this.props;
+        return <div > {children} < /div>
+    }
 }
+
+export default Button;

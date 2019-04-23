@@ -1,7 +1,17 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "lerna": "^3.13.3"
-  }
+    "name": "root",
+    "private": true,
+    "devDependencies": {
+        "@storybook/react": "^5.0.10",
+        "@storybook/addon-actions": "^5.0.10",
+        "@storybook/addon-links": "^5.0.10",
+        "@storybook/addons": "^5.0.10",
+        "@babel/core": "^7.4.3",
+        "babel-loader": "^8.0.5",
+        "lerna": "^3.13.3"
+    },
+    "scripts": {
+        "storybook": "start-storybook -p 9001"
+    },
+    "dependencies": {}
 }
